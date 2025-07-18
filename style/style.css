@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared items */
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    background-color: #FF5959;
+    padding: 16px 20px;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700px;
+    color: #121212;
+    font-family: "Inter", sans-serif;
+}
+
+.common-description {
+    font-size: 1.125rem;
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* header banner */
+.header-banner {
+    background-image: linear-gradient(to top, rgba(18, 18, 18, 1), rgba(18, 18, 18, 0)), url(../images/donation8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 150px;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-shadow: 1px 1px 4px black;
+}
+
+.banner-description {
+    font-size: 1.125rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* DONATE   TODAY    */
+.donate-today {
+    max-width: 770px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.donate-today-content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate-card-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.donate-card{
+    max-width: 135px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    color: #707070;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding: 42px 22px;
+}
+.donate-card:hover{
+    background-color: #FFEEEE;
+    border:1px solid #FF5959;
+    color: #FF5959;
+}
+.other-account{
+    font-size: 1.125rem;
+    color: #B3B3B3;
+    font-family: "Poppins", sans-serif;
+
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #DADADA;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media screen */
+@media screen and (max-width:576px) {
+    .header-banner {
+        padding: 10px;
+    }
+    .donate-card-container{
+        grid-template-columns: 1fr;
+    }
+    .donate-card-container{
+        justify-items: center;
+    }
+    hr{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
