@@ -165,6 +165,25 @@ hr{
     margin-bottom: 20px;
 }
 
+/* last section */
+.last-section{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.last-section-card-container{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -178,7 +197,8 @@ hr{
         padding: 10px;
     }
     .donate-card-container,
-    .donate-plan-card-container
+    .donate-plan-card-container,
+    .last-section-card-container
     {
         grid-template-columns: 1fr;
     }
@@ -190,5 +210,10 @@ hr{
     hr{
         margin-top: 5px;
         margin-bottom: 15px;
+    }
+    .last-section-card-container:nth-child(1){
+        display: flex;
+        flex-direction: column-reverse;
+
     }
 }
