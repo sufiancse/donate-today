@@ -178,11 +178,47 @@ hr{
     margin-bottom: 80px;
 }
 
+/* get my updates */
+.get-my-updates{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.my-updates-content{
+     max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.subscribe{
+    background-color: #FFF4D6;
+    padding: 76px 188px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.subscribe input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 14px 50px;
+    font-weight: 500;
+    color: #AA9F9F;
+}
+.subscribe button{
+    border-radius: 0 10px 10px 0;
+}
 
-
-
-
-
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 63px 100px;
+}
+footer .section-title{
+    color: #FF5959;
+}
 
 
 
